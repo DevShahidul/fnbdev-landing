@@ -122,8 +122,13 @@ h4 {
 }
 
 .contact-item figure{
-    float: left;
     width: 48px;
+}
+
+.contact-item figure,
+.contact-item .info{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .contact-item figure img{
@@ -136,9 +141,8 @@ h4 {
 }
 
 .contact-item .info{
-    float: left;
-    width: -webkit-calc(100% - 68px);
-    width: calc(100% - 48px);
+    width: -webkit-calc(100% - 56px);
+    width: calc(100% - 56px);
     overflow: hidden;
 }
 
